@@ -29,12 +29,14 @@ public class TreeListAdapter extends ArrayAdapter<Tree>{
 
         TextView nameView = (TextView) listItemView.findViewById(R.id.name_list_activity);
         nameView.setText(currentTree.getName());
+
         TextView ageView = (TextView) listItemView.findViewById(R.id.age_list_activity);
         ageView.setText(Integer.toString(currentTree.getAgeInYears()));
+
         TextView countryView = (TextView) listItemView.findViewById(R.id.country_of_origin_list_activity);
         countryView.setText(currentTree.getCountryOfOrigin());
 
-
+        return listItemView;
     }
 
 }
