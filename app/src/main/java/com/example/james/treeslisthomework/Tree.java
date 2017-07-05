@@ -10,7 +10,7 @@ public class Tree {
     private int ageInYears;
     private String countryOfOrigin;
 
-    public Tree(String name, String countryOfOrigin, int ageInYears){
+    public Tree(String name, int ageInYears, String countryOfOrigin){
         this.name = name;
         this.countryOfOrigin = countryOfOrigin;
         this.ageInYears = ageInYears;
