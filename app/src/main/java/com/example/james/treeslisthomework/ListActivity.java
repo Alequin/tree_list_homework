@@ -20,6 +20,8 @@ public class ListActivity extends AppCompatActivity {
     }
 
     public void onClickTreeListItem(View listItem){
-        
+
+        Tree tree = (Tree) listItem.getTag();
+
     }
 }

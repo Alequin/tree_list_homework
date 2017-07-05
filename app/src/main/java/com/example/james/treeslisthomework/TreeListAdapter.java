@@ -26,6 +26,7 @@ public class TreeListAdapter extends ArrayAdapter<Tree>{
         }
 
         Tree currentTree = getItem(position);
+        listItemView.setTag(currentTree);
 
         TextView nameView = (TextView) listItemView.findViewById(R.id.name_list_activity);
         nameView.setText(currentTree.getName());
