@@ -7,15 +7,13 @@ package com.example.james.treeslisthomework;
 public class Tree {
 
     private String name;
+    private int ageInYears;
     private String countryOfOrigin;
-    private String seedType;
-    private int averageHeight;
 
-    public Tree(String name, String countryOfOrigin, String seedType, int averageHeight){
+    public Tree(String name, String countryOfOrigin, int ageInYears){
         this.name = name;
         this.countryOfOrigin = countryOfOrigin;
-        this.seedType = seedType;
-        this.averageHeight = averageHeight;
+        this.ageInYears = ageInYears;
     }
 
     public String getName() {
@@ -26,11 +24,7 @@ public class Tree {
         return countryOfOrigin;
     }
 
-    public String getSeedType() {
-        return seedType;
-    }
-
-    public int getAverageHeight() {
-        return averageHeight;
+    public int getAgeInYears() {
+        return ageInYears;
     }
 }
