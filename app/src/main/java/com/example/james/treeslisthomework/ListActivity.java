@@ -20,8 +20,10 @@ public class ListActivity extends AppCompatActivity {
     }
 
     public void onClickTreeListItem(View listItem){
-
         Tree tree = (Tree) listItem.getTag();
-
+        Log.d("app-debug", tree.getName());
+        Log.d("app-debug", Integer.toString(tree.getAgeInYears()));
+        Log.d("app-debug",tree.getCountryOfOrigin());
+        Log.d("app-debug","----------------------------------------------");
     }
 }
