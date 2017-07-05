@@ -18,4 +18,19 @@ public class Tree {
         this.averageHeight = averageHeight;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getCountryOfOrigin() {
+        return countryOfOrigin;
+    }
+
+    public String getSeedType() {
+        return seedType;
+    }
+
+    public int getAverageHeight() {
+        return averageHeight;
+    }
 }
